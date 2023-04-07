@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/BG.jpg) no-repeat cover; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/robotekIR.jpg) ; 
+  background-size: cover;  */
+  min-height: 90vh; 
+  /* background: linear-gradient(rgba(58, 52, 52, 0.8), rgba(51, 26, 26, 0.8)), url(img/robotekIR.jpg) ;  */
+  background: linear-gradient(rgba(48, 43, 43, 0.8), rgba(19, 10, 10, 0.8)), url(img/robotekIR.jpg) ; 
+  background-size:contain;
+  background-position: center ;
+}
+body .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .cards .card {
+  max-width: 300px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 20px;
+  padding: 20px 15px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: aliceblue;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: solid rgb(182, 26, 26) 3px;
+}
+
+body .cards .card .imgBox {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  z-index: 1;
+ 
+}
+.image{
+  border: solid rgb(134, 46, 46) 2px;
+}
+
+body .cards .card .imgBox img {
+  max-width: 100%;
+  height: 170px;
+  border-radius: 5px;
+}
+
+body .cards .card:hover {
+  height: 300px;
+}
+
+body .cards .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 20px;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+body .cards .card .content {
+  position: relative;
+  /* margin-top: -140px; */
+  margin-top: 0px !important ;
+  padding: 10px 15px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
+a
+{
+  color: rgb(182, 26, 26) ;
+  text-decoration: underline;
+   
+}
+.links
+{
+  padding-left: 2cm;  
+}
+ion-icon {
+  font-size: 30px;
+  color:rgb(24, 24, 22);
+}
+h2{
+  font-size: 22px;
+}
+h4{
+  margin-left: 10px;
+  margin-right: 8px;
+  color: aliceblue;
+}
+
+.icon{
+  font-size: 30px;
+  color:aliceblue;
+}
+.link{
+  color: aliceblue;
+}
+.cantact{
+margin: auto;
+display: flex;
+align-items: center;
+margin-top: 50px;
+justify-content: center;
+
+
+}
+table{
+justify-content: center;
+display: flex;
+align-items: center;
+
+}
